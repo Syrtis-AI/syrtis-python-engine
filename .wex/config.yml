@@ -1,7 +1,11 @@
 domain: python-engine.wex
+git:
+  main_deployment_remote_name: github
+  publication_strategy: main_push
 global:
-  name: python-engine
+  name: python_engine
   type: python-package
-  version: 1.0.0
+  vendor: syrtis
+  version: 1.0.1
 wex:
   version: 6.0.136

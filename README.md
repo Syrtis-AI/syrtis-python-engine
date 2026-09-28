@@ -1,6 +1,6 @@
-# python-engine
+# python_engine
 
-Version: 1.0.0
+Version: 1.0.1
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Version: 1.0.0
 ## Installation
 
 ```bash
-pip install wexample-python-engine
+pip install syrtis-python-engine
 ```
 
 Requires Python >=3.10.
@@ -72,7 +72,7 @@ This will cause the test suite to fail if coverage drops below 80%.
 
 Current limitations and planned features are tracked in the GitHub issues.
 
-See the [project roadmap](https://github.com/wexample/python-python-engine/issues) for upcoming features and improvements.
+See the [project roadmap](https://github.com/wexample/python-python_engine/issues) for upcoming features and improvements.
 
 ## Status & Compatibility
 
@@ -90,7 +90,7 @@ See the [project roadmap](https://github.com/wexample/python-python-engine/issue
 - **Documentation**: [docs.wexample.com](https://docs.wexample.com)
 - **Issue Tracker**: https://github.com/wexample/python-python-engine/issues
 - **Discussions**: https://github.com/wexample/python-python-engine/discussions
-- **PyPI**: [pypi.org/project/python-engine](https://pypi.org/project/python-engine/)
+- **PyPI**: [pypi.org/project/python_engine](https://pypi.org/project/python_engine/)
 
 # About us
 

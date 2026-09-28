@@ -3,8 +3,8 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-name = "wexample-python-engine"
-version = "1.0.0"
+name = "syrtis-python-engine"
+version = "1.0.1"
 authors = [{name = "weeger", email = "contact@wexample.com"}]
 requires-python = ">=3.10"
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
@@ -25,7 +25,7 @@ dev = [
 
 [tool.setuptools.packages.find]
 include = ["*"]
-exclude = ["wexample_python_engine.testing*"]
+exclude = ["syrtis_python_engine.testing*"]
 
 [tool.pdm]
 distribution = true
@@ -34,7 +34,7 @@ distribution = true
 package-dir = "src"
 
 [[tool.pdm.build.packages]]
-include = "wexample_python_engine"
+include = "syrtis_python_engine"
 from = "src"
 
 [tool.pytest.ini_options]
@@ -42,7 +42,7 @@ testpaths = ["tests"]
 pythonpath = ["src"]
 
 [tool.coverage.run]
-source = ["wexample_python_engine"]
+source = ["syrtis_python_engine"]
 omit = ["*/tests/*", "*/.venv/*", "*/venv/*"]
 
 [tool.coverage.report]
