@@ -1,0 +1,7 @@
+domain: python-engine.wex
+global:
+  name: python-engine
+  type: python-package
+  version: 1.0.0
+wex:
+  version: 6.0.136
